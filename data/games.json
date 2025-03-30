@@ -1,0 +1,53 @@
+{
+  "games": [
+    {
+      "id": "mobile-legends",
+      "name": "Mobile Legends",
+      "publisher": "Moonton",
+      "image": "/placeholder.svg",
+      "popular": true,
+      "packages": [
+        { "tokens": "86", "price": "19,530" },
+        { "tokens": "172", "price": "38,640" },
+        { "tokens": "257", "price": "57,750" },
+        { "tokens": "344", "price": "76,860" },
+        { "tokens": "429", "price": "95,970" },
+        { "tokens": "514", "price": "115,080" },
+        { "tokens": "600", "price": "134,190" },
+        { "tokens": "706", "price": "153,300" },
+        { "tokens": "878", "price": "191,625" },
+        { "tokens": "963", "price": "210,735" },
+        { "tokens": "1050", "price": "229,845" },
+        { "tokens": "1220", "price": "268,170" },
+        { "tokens": "1412", "price": "306,495" },
+        { "tokens": "2195", "price": "478,170" },
+        { "tokens": "3688", "price": "803,385" }
+      ]
+    },
+    {
+      "id": "honor-of-kings",
+      "name": "Honor of Kings",
+      "publisher": "Level Invinite",
+      "image": "/placeholder.svg",
+      "popular": true,
+      "packages": [
+        { "tokens": "16", "price": "2,695" },
+        { "tokens": "80", "price": "10,500" },
+        { "tokens": "240", "price": "35,700" },
+        { "tokens": "400", "price": "57,750" },
+        { "tokens": "560", "price": "84,000" },
+        { "tokens": "800", "price": "105,000" },
+        { "tokens": "1,200", "price": "178,500" },
+        { "tokens": "2,400", "price": "367,513" },
+        { "tokens": "4,000", "price": "630,000" },
+        { "tokens": "8,000", "price": "1,155,000" },
+        { "tokens": "12,000", "price": "1,680,000" },
+        { "tokens": "16,000", "price": "2,205,000" },
+        { "tokens": "24,000", "price": "3,255,000" },
+        { "tokens": "32,000", "price": "4,305,000" },
+        { "tokens": "48,000", "price": "6,405,000" }
+      ]
+    }
+  ]
+}
+
