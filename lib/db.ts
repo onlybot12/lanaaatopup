@@ -296,16 +296,16 @@ export async function getTransactionByReferenceId(referenceId: string) {
 
 function getDefaultSettings(): WebsiteSettings {
   return {
-    siteName: "Zkygame",
+    siteName: "LANA STORE",
     siteUrl: "https://zkygame.com",
     description: "Website topup murah cepat dan terpecaya di Indonesia 100% Legal.",
     keywords: "topup game, diamond murah, zkygame, mobile legends",
     maintenanceMode: false,
     contact: {
       email: "info@zkygame.com",
-      phone: "+62 812 3456 7890",
-      address: "Jl. Contoh No. 123, Jakarta Selatan, DKI Jakarta, Indonesia",
-      whatsapp: "+62 812 3456 7890",
+      phone: "+62 896 7566 2384",
+      address: "Jl. Pendidikan 2. Pondok Aren, Tangerang Selatan, Indonesia",
+      whatsapp: "+62 896 7566 2384",
       hours: {
         weekday: "08:00 - 21:00 WIB",
         weekend: "09:00 - 18:00 WIB",
@@ -313,10 +313,10 @@ function getDefaultSettings(): WebsiteSettings {
       },
     },
     social: {
-      facebook: "https://facebook.com/zkygame",
-      instagram: "https://instagram.com/zkygame",
-      twitter: "https://twitter.com/zkygame",
-      youtube: "https://youtube.com/zkygame",
+      facebook: "https://facebook.com/",
+      instagram: "https://instagram.com/",
+      twitter: "https://twitter.com/",
+      youtube: "https://youtube.com/",
     },
     appearance: {
       primaryColor: "#dc2626",
@@ -325,7 +325,7 @@ function getDefaultSettings(): WebsiteSettings {
       allowThemeSwitch: true,
     },
     footer: {
-      text: "© 2023 Zkygame. All rights reserved.",
+      text: "© 2025 Lana Store. All rights reserved.",
       showPaymentIcons: true,
       showSocialIcons: true,
     },
