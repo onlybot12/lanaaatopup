@@ -363,7 +363,7 @@ export default function WebsiteSettings() {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div>
             <h1 className="text-3xl font-bold tracking-tight">Pengaturan Website</h1>
-            <p className="text-muted-foreground">Kelola pengaturan website Zkygame</p>
+            <p className="text-muted-foreground">Kelola pengaturan website Lanastore</p>
           </div>
           <Button onClick={handleSave} disabled={saving} className="bg-red-600 hover:bg-red-700 text-white">
             {saving ? "Menyimpan..." : "Simpan Perubahan"}
@@ -388,7 +388,7 @@ export default function WebsiteSettings() {
             <Card>
               <CardHeader>
                 <CardTitle>Informasi Website</CardTitle>
-                <CardDescription>Pengaturan dasar untuk website Zkygame</CardDescription>
+                <CardDescription>Pengaturan dasar untuk website Lanastore</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -607,7 +607,7 @@ export default function WebsiteSettings() {
             <Card>
               <CardHeader>
                 <CardTitle>Sosial Media</CardTitle>
-                <CardDescription>Link sosial media untuk website Zkygame</CardDescription>
+                <CardDescription>Link sosial media untuk website Lanastore</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="grid grid-cols-1 gap-4">
@@ -668,7 +668,7 @@ export default function WebsiteSettings() {
             <Card>
               <CardHeader>
                 <CardTitle>Tampilan Website</CardTitle>
-                <CardDescription>Pengaturan tampilan untuk website Zkygame</CardDescription>
+                <CardDescription>Pengaturan tampilan untuk website Lanastore</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -1314,10 +1314,10 @@ export default function WebsiteSettings() {
 
 function getDefaultSettings(): WebsiteSettings {
   return {
-    siteName: "Zkygame",
-    siteUrl: "https://zkygame.com",
+    siteName: "Lanastore",
+    siteUrl: "https://lanaaatopup.vercel.app",
     description: "Website topup murah cepat dan terpecaya di Indonesia 100% Legal.",
-    keywords: "topup game, diamond murah, zkygame, mobile legends",
+    keywords: "topup game, diamond murah, lanastore",
     maintenanceMode: false,
     contact: {
       email: "",
@@ -1343,7 +1343,7 @@ function getDefaultSettings(): WebsiteSettings {
       allowThemeSwitch: true,
     },
     footer: {
-      text: "© 2023 Zkygame. All rights reserved.",
+      text: "© 2025 Lanastore. All rights reserved.",
       showPaymentIcons: true,
       showSocialIcons: true,
     },
