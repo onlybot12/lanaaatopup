@@ -28,7 +28,7 @@ export function Navbar() {
           </SheetTrigger>
           <SheetContent side="left" className="p-0 w-[240px] md:hidden">
             <div className="flex items-center justify-between p-4 border-b">
-              <span className="font-semibold text-lg text-primary">Zkygame</span>
+              <span className="font-semibold text-lg text-primary">Lana store</span>
               <SheetClose asChild>
                 <Button variant="ghost" size="icon" onClick={() => setIsSidebarOpen(false)}>
                   <X className="h-5 w-5" />
@@ -46,7 +46,7 @@ export function Navbar() {
 
         {/* Logo */}
         <Link href="/" className="ml-4 md:ml-0 flex-1 md:flex-none">
-          <span className="font-bold text-lg text-primary">Zkygame</span>
+          <span className="font-bold text-lg text-primary">Lana store</span>
         </Link>
 
         {/* Search */}
