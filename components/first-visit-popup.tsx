@@ -58,7 +58,7 @@ export function FirstVisitPopup() {
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogContent className="sm:max-w-[500px]">
         <DialogHeader className="text-center sm:text-left">
-          <DialogTitle className="text-xl">Selamat Datang di Zkygame!</DialogTitle>
+          <DialogTitle className="text-xl">Selamat Datang di Lanastore!</DialogTitle>
           <DialogDescription>
             Platform top up game terpercaya dengan harga termurah dan proses instan.
           </DialogDescription>
@@ -66,12 +66,12 @@ export function FirstVisitPopup() {
 
         <div className="py-4">
           <p className="mb-4">
-            Zkygame menyediakan layanan top up untuk berbagai game populer dengan proses yang cepat dan aman. Nikmati
+            Lanastore menyediakan layanan top up untuk berbagai game populer dengan proses yang cepat dan aman. Nikmati
             kemudahan bertransaksi dan harga yang kompetitif!
           </p>
 
           <div className="bg-secondary/30 p-4 rounded-lg mb-4">
-            <h3 className="font-medium mb-2">Keuntungan Menggunakan Zkygame:</h3>
+            <h3 className="font-medium mb-2">Keuntungan Menggunakan Lanastore:</h3>
             <ul className="list-disc list-inside space-y-1 text-sm">
               <li>Proses instan dan otomatis</li>
               <li>Harga termurah</li>
