@@ -134,6 +134,7 @@ export function Sidebar({ onClose, className }: SidebarProps) {
   const staticItems = [
     { icon: Home, label: "Beranda", href: "/" },
     { icon: Receipt, label: "Cek Transaksi", href: "/invoice" }, // Diubah dari /cek-transaksi ke /invoice
+    { icon: Site, label: "WhatsApp Admin", href: "/" },
   ]
 
   // Buat item sidebar dinamis dari types dan categories
