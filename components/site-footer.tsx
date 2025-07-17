@@ -137,7 +137,7 @@ export function SiteFooter() {
               </li>
               <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2 text-primary" />
-                <span>{settings?.contact?.email || "maulanaastore@gmail.com"}</span>
+                <span>maulanaastore@gmail.com</span>
               </li>
             </ul>
 
