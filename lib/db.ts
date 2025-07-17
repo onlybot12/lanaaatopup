@@ -297,14 +297,14 @@ export async function getTransactionByReferenceId(referenceId: string) {
 function getDefaultSettings(): WebsiteSettings {
   return {
     siteName: "LANA STORE",
-    siteUrl: "https://zkygame.com",
+    siteUrl: "https://lanaaatopup.vercel.app",
     description: "Website topup murah cepat dan terpecaya di Indonesia 100% Legal.",
-    keywords: "topup game, diamond murah, zkygame, mobile legends",
+    keywords: "topup game, diamond murah, Lanastore, mobile legends",
     maintenanceMode: false,
     contact: {
       email: "info@zkygame.com",
       phone: "+62 896 7566 2384",
-      address: "Jl. Pendidikan 2. Pondok Aren, Tangerang Selatan, Indonesia",
+      address: "Jl. Pondok Aren, Tangerang Selatan, Indonesia",
       whatsapp: "+62 896 7566 2384",
       hours: {
         weekday: "08:00 - 21:00 WIB",
