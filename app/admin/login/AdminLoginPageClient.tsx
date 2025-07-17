@@ -58,7 +58,7 @@ export default function AdminLoginPageClient() {
       <Card className="w-full max-w-md relative z-10">
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl font-bold text-center">Admin Login</CardTitle>
-          <CardDescription className="text-center">Masuk ke dashboard admin Zkygame</CardDescription>
+          <CardDescription className="text-center">Masuk ke dashboard admin Lana topup</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleLogin}>
@@ -98,7 +98,7 @@ export default function AdminLoginPageClient() {
         </CardContent>
         <CardFooter>
           <p className="text-xs text-center w-full text-muted-foreground flex items-center justify-center">
-            <Lock className="h-3 w-3 mr-1" /> Hanya untuk admin Zkygame
+            <Lock className="h-3 w-3 mr-1" /> Hanya untuk admin Lana topup
           </p>
         </CardFooter>
       </Card>
