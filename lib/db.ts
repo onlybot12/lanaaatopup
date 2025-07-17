@@ -302,7 +302,7 @@ function getDefaultSettings(): WebsiteSettings {
     keywords: "topup game, diamond murah, Lanastore, mobile legends",
     maintenanceMode: false,
     contact: {
-      email: "info@zkygame.com",
+      email: "maulanaastore@gmail.com",
       phone: "+62 896 7566 2384",
       address: "Jl. Pondok Aren, Tangerang Selatan, Indonesia",
       whatsapp: "+62 896 7566 2384",
