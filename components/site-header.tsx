@@ -28,7 +28,7 @@ export function SiteHeader() {
           </SheetContent>
         </Sheet>
         <Link href="/" className="ml-4 md:ml-0">
-          <span className="font-bold text-lg">Zkygame</span>
+          <span className="font-bold text-lg">Lanastore</span>
         </Link>
 
         <div className="flex-1 flex items-center justify-end md:justify-center">
