@@ -14,12 +14,12 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 export default function PopupSettings() {
   const [saving, setSaving] = useState(false)
   const [popupEnabled, setPopupEnabled] = useState(true)
-  const [popupTitle, setPopupTitle] = useState("Selamat Datang di Zkygame!")
+  const [popupTitle, setPopupTitle] = useState("Selamat Datang di Lanastore!")
   const [popupDescription, setPopupDescription] = useState(
     "Platform top up game terpercaya dengan harga termurah dan proses instan.",
   )
   const [popupContent, setPopupContent] = useState(
-    "Zkygame menyediakan layanan top up untuk berbagai game populer dengan proses yang cepat dan aman. Nikmati kemudahan bertransaksi dan harga yang kompetitif!",
+    "Lanastore menyediakan layanan top up untuk berbagai game populer dengan proses yang cepat dan aman. Nikmati kemudahan bertransaksi dan harga yang kompetitif!",
   )
   const [popupBenefits, setPopupBenefits] = useState(
     "Proses instan dan otomatis\nHarga termurah\nLayanan pelanggan 24/7\nMetode pembayaran lengkap\nTransaksi aman dan terpercaya",
@@ -60,7 +60,7 @@ export default function PopupSettings() {
                   <p className="mb-4">{popupContent}</p>
 
                   <div className="bg-secondary/30 p-4 rounded-lg mb-4">
-                    <h3 className="font-medium mb-2">Keuntungan Menggunakan Zkygame:</h3>
+                    <h3 className="font-medium mb-2">Keuntungan Menggunakan Lanastore:</h3>
                     <ul className="list-disc list-inside space-y-1 text-sm">
                       {popupBenefits.split("\n").map((benefit, index) => (
                         <li key={index}>{benefit}</li>
