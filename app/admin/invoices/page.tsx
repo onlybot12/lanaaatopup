@@ -400,7 +400,7 @@ export default function InvoicePage() {
                     id="tracking-id"
                     value={trackingId}
                     onChange={(e) => setTrackingId(e.target.value)}
-                    placeholder="INV-123456789 atau ZKY123456"
+                    placeholder="INV-123456789 atau LAN123456"
                   />
                   <Button onClick={handleTrackInvoice} className="bg-red-600 hover:bg-red-700 text-white">
                     <Search className="h-4 w-4" />
