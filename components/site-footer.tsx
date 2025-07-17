@@ -133,11 +133,11 @@ export function SiteFooter() {
               </li>
               <li className="flex items-center">
                 <Phone className="h-4 w-4 mr-2 text-primary" />
-                <span>{settings?.contact?.phone || "+62 812 3456 7890"}</span>
+                <span>{settings?.contact?.phone || ""}</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-4 w-4 mr-2 text-primary" />
-                <span>{settings?.contact?.email || "info@zkygame.com"}</span>
+                <span>{settings?.contact?.email || "maulanaastore@gmail.com"}</span>
               </li>
             </ul>
 
